@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.header{
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-color: black
+}
+.inner-header{
+  height: 100%;
+  width: 1000px;
+  display: block;
+  
+  margin:0 auto;
+}
+.logo_container{
+  height: 100%;
+  float: left;
+  display: table;
+}
+.logo_container h1{
+  /*color: white;*/
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 200;
+  font-family: arial bold;
+  font-size: 32px;
+}
+.logo_container h1 span{
+  font-weight: 800;
+}
+.navigation{
+  height: 100%;
+  float: right;
+}
+.navigation a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  /*color: white;*/
+  font-size: 16px;
+}
